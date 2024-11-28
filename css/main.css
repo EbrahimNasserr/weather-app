@@ -446,7 +446,6 @@ header .nav-links .close-btn {
 
 /* start media queries */
 @media (max-width: 991px) {
-
   .weather-container {
     flex-direction: column;
   }
