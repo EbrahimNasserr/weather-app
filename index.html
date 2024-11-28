@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/main.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome -->
+</head>
+
+<body>
+    <!-- start header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo@2x.png" alt="logo">
+                <div class="logo-text">
+                    <h1>weather</h1>
+                    <p>tagline goes here</p>
+                </div>
+            </div>
+            <nav>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-links">
+                    <li class="close-btn">x</li>
+                    <li><a href="#" class="link-btn active">Home</a></li>
+                    <li><a href="#" class="link-btn">news</a></li>
+                    <li><a href="#" class="link-btn">Live cameras</a></li>
+                    <li><a href="#" class="link-btn">photos</a></li>
+                    <li><a href="#" class="link-btn">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- end header -->
+    <section class="main">
+        <div class="containerbg"></div>
+        <div class="container">
+            <div class="main-content">
+                <input type="text" placeholder="Enter your city" id="searchCity" class="city-input">
+                <button class="submit-btn">find</button>
+            </div>
+            <div class="days-container">
+                <button class="days-btn active" value="3">3 days</button>
+                <button class="days-btn" value="5">5 days</button>
+                <button class="days-btn" value="7">7 days</button>
+            </div>
+            <!-- start weather info -->
+            <div class="weather-container">
+            </div>
+            <!-- end weather info -->
+    </section>
+
+    <!-- start footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="subscribe-container">
+                    <input type="email" placeholder="Enter your email to subscribe..." class="email-input">
+                    <button class="subscribe-button">Subscribe</button>
+                </div>
+
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-pinterest"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
