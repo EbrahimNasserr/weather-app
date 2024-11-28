@@ -446,9 +446,6 @@ header .nav-links .close-btn {
 
 /* start media queries */
 @media (max-width: 991px) {
-  .main {
-    height: 200vh;
-  }
 
   .weather-container {
     flex-direction: column;
